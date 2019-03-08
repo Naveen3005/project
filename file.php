@@ -1,7 +1,7 @@
 <?php
 	$currentDir = getcwd();
 	$uploadDirectory = "/uploads/";
-	$errors = [];
+	$errors = [45];
 	$fileExtensions = ['jpeg','jpg'];
 	$fileName=$_FILES['myfile']['name'];
 	$fileSize=$_FILES['myfile']['size'];
